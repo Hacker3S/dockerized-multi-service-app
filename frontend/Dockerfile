@@ -11,4 +11,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["npm", "run", "start"]
+CMD ["nginx", "-g", "daemon off;"]
